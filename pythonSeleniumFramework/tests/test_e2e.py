@@ -37,6 +37,8 @@ class TestE2E(BaseClass):
         print("Calin's changes2")
         print("Calin's changes3")
         print("Calin's changes4")
+        print("Calin's changes5")
+        print("Calin's changes6")
 
     @pytest.fixture(params=TestData.test_data)
     def data_load(self, request):
